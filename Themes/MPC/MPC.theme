@@ -1,0 +1,86 @@
+﻿{
+  "controlTypeValues": {
+    "tchmi-button": {
+      "attributes": {
+        "BorderRadius": {
+          "topLeft": 15.0,
+          "topRight": 15.0,
+          "bottomLeft": 15.0,
+          "bottomRight": 15.0,
+          "topLeftUnit": "px",
+          "topRightUnit": "px",
+          "bottomLeftUnit": "px",
+          "bottomRightUnit": "px"
+        },
+        "TextFontSize": 20.0,
+        "TextColor": {
+          "color": "rgba(0, 65, 220, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "tchmi-textblock": {
+      "attributes": {
+        "TextHorizontalAlignment": "Center"
+      },
+      "themedResources": {}
+    },
+    "tchmi-content": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(169, 179, 203, 1)"
+        }
+      },
+      "themedResources": {}
+    }
+  },
+  "controlClassValues": {
+    "btn-Action": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(249, 121, 0, 1)"
+        },
+        "TextColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "btn-Interface": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(169, 211, 71, 0.9803921)"
+        },
+        "TextColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "btn-End": {
+      "attributes": {
+        "TextColor": {
+          "color": "rgba(249, 0, 0, 1)"
+        },
+        "TextFontWeight": "Bold",
+        "TextFontSize": 25.0,
+        "BackgroundColor": {
+          "color": "rgba(169, 211, 71, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "txt-label": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(66, 163, 221, 1)"
+        },
+        "TextColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        }
+      },
+      "themedResources": {}
+    }
+  },
+  "$schema": "C:/TwinCAT/Functions/TE2000-HMI-Engineering/Infrastructure/TcHmiFramework/Latest/Schema/ThemeDescription.Schema.json"
+}

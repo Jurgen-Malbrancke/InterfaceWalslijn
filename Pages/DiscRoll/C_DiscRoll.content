@@ -1,0 +1,27 @@
+﻿<div id="C_DiscRoll" data-tchmi-type="tchmi-content" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="2560" data-tchmi-height="1440" data-tchmi-creator-viewport-width="2560" data-tchmi-creator-viewport-height="1440" data-tchmi-zindex="1">
+
+<div id="txt_Title_1" data-tchmi-type="tchmi-textblock" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="342" data-tchmi-left-unit="px" data-tchmi-text="Discontinuous Rolling" data-tchmi-top="36" data-tchmi-top-unit="px" data-tchmi-width="784" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="80" data-tchmi-zindex="1">
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(255, 255, 255, 1)"
+}
+</script>
+</div>
+
+<div id="Img_Logo_2" data-tchmi-type="tchmi-image" data-tchmi-height="150" data-tchmi-height-unit="px" data-tchmi-left="0" data-tchmi-left-unit="px"  data-tchmi-top="17" data-tchmi-top-unit="px" data-tchmi-width="300" data-tchmi-width-unit="px"  data-tchmi-src="Images/MPC_Logo.svg" data-tchmi-zindex="1">
+
+</div>
+
+<div id="Region_DiscRoll_Left" data-tchmi-type="tchmi-region" data-tchmi-height-unit="px" data-tchmi-left="10" data-tchmi-left-unit="px" data-tchmi-top="180" data-tchmi-top-unit="px" data-tchmi-width="1265" data-tchmi-width-unit="px" data-tchmi-bottom="10" data-tchmi-zindex="1" data-tchmi-right-unit="px" data-tchmi-creator-locked="True">
+
+</div>
+
+<div id="Region_DiscRoll_Right" data-tchmi-type="tchmi-region" data-tchmi-height-unit="px" data-tchmi-left-unit="px" data-tchmi-top="10" data-tchmi-top-unit="px" data-tchmi-width="1265" data-tchmi-width-unit="px" data-tchmi-bottom="10" data-tchmi-right="10" data-tchmi-zindex="0" data-tchmi-right-unit="px" data-tchmi-creator-locked="True" data-tchmi-target-content="Pages/DiscRoll/C_Parameters_DiscRoll_Right.content">
+
+</div>
+
+</div>

@@ -10,7 +10,7 @@
     "websocketTimeout": 10000,
     "websocketSubscriptionMode": "Change"
   },
-  "activeTheme": "Base",
+  "activeTheme": "MPC",
   "themes": {
     "Base": {
       "resources": [
@@ -26,6 +26,21 @@
         }
       ],
       "replacesThemeForControls": []
+    },
+    "MPC": {
+      "resources": [
+        {
+          "name": "Themes/MPC/MPC.theme",
+          "description": "",
+          "type": "ThemedValues"
+        },
+        {
+          "name": "Themes/MPC/Style.css",
+          "description": "",
+          "type": "Stylesheet"
+        }
+      ],
+      "replacesThemeForControls": []
     }
   },
   "dependencyFiles": [
@@ -36,7 +51,24 @@
     }
   ],
   "userControls": [],
-  "content": [],
+  "content": [
+    {
+      "url": "Pages/ContRoll/C_ContRoll.content",
+      "preload": false
+    },
+    {
+      "url": "Pages/DiscRoll/C_DiscRoll.content",
+      "preload": false
+    },
+    {
+      "url": "Pages/DiscRoll/C_Parameters_DiscRoll_Right.content",
+      "preload": false
+    },
+    {
+      "url": "Pages/C_MainPage.content",
+      "preload": false
+    }
+  ],
   "views": [
     {
       "url": "Desktop.view",

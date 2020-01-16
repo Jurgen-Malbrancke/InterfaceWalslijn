@@ -11,7 +11,7 @@
     <HmiVerboseLevel>2</HmiVerboseLevel>
     <HmiVersion>1.0.0.0</HmiVersion>
     <Name>TcHmi-walslijn</Name>
-    <HmiCommunicationRouterPort>10101</HmiCommunicationRouterPort>
+    <HmiCommunicationRouterPort>10104</HmiCommunicationRouterPort>
     <HmiFrameworkVersion>Latest</HmiFrameworkVersion>
     <HmiCommunicationServerPort>3000</HmiCommunicationServerPort>
     <HmiInitial>1.10.1336.372</HmiInitial>
@@ -83,6 +83,27 @@
   <Target Name="ReBuild" DependsOnTargets="Clean; Build" />
   <Target Name="Clean" DependsOnTargets="BaseClean" />
   <ItemGroup>
+    <Content Include="Images\MPC_Logo.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\ContRoll\C_ContRoll.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\C_MainPage.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\DiscRoll\C_DiscRoll.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\DiscRoll\C_Parameters_DiscRoll_Right.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Themes\MPC\MPC.theme">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Themes\MPC\Style.css">
+      <SubType>Content</SubType>
+    </Content>
     <Folder Include=".hmipkgs" />
     <Folder Include="Libraries" />
     <Folder Include="Images" />
@@ -91,6 +112,9 @@
     <Folder Include="Imports\Images" />
     <Folder Include="Imports\Videos" />
     <Folder Include="Localization" />
+    <Folder Include="Pages" />
+    <Folder Include="Pages\DiscRoll" />
+    <Folder Include="Pages\ContRoll" />
     <Folder Include="Server\Extensions\ADS" />
     <Folder Include="Server\Extensions\TcHmiEventLogger" />
     <Folder Include="Server\Extensions\TcHmiLua" />
@@ -211,10 +235,6 @@
       <SubType>Content</SubType>
       <Visible>true</Visible>
     </Content>
-    <Content Include="Images\Beckhoff_Logo.svg">
-      <SubType>Content</SubType>
-      <Visible>true</Visible>
-    </Content>
     <Content Include="Localization\de-DE.localization">
       <SubType>Content</SubType>
       <Visible>true</Visible>
@@ -300,5 +320,6 @@
       <SubType>Content</SubType>
       <Visible>true</Visible>
     </Content>
+    <Folder Include="Themes\MPC\" />
   </ItemGroup>
 </Project>

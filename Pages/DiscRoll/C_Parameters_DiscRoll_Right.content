@@ -1,0 +1,83 @@
+﻿<div id="C_Parameters_DCR_Right" data-tchmi-type="tchmi-content" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="1265" data-tchmi-height="1420" data-tchmi-creator-viewport-width="1265" data-tchmi-creator-viewport-height="1420">
+
+<div id="btn_Back2Main_1" data-tchmi-type="tchmi-button" data-tchmi-height="65" data-tchmi-height-unit="px" data-tchmi-left-unit="px" data-tchmi-text="End" data-tchmi-top-unit="px" data-tchmi-width="226" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-right="63" data-tchmi-bottom="20" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px" data-tchmi-zindex="1">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-End"
+]
+</script>
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btn_Back2Main_1.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%Region_Main::TargetContent%/ctrl%",
+        "valueType": "tchmi:framework#/definitions/ContentPath",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/ContentPath",
+          "value": "Pages/C_MainPage.content"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+<div id="btn_StartRolling" data-tchmi-type="tchmi-button" data-tchmi-height="70" data-tchmi-height-unit="px" data-tchmi-left="977" data-tchmi-left-unit="px" data-tchmi-text="Start Rolling" data-tchmi-top="1248" data-tchmi-top-unit="px" data-tchmi-width="226" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Interface"
+]
+</script>
+</div>
+
+<div id="TcHmiTextbox" data-tchmi-type="tchmi-textbox" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="198" data-tchmi-left-unit="px" data-tchmi-text="TcHmiTextbox" data-tchmi-top="186" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+</div>
+
+<div id="TcHmiRectangle" data-tchmi-type="tchmi-rectangle" data-tchmi-height="333" data-tchmi-height-unit="px" data-tchmi-left="57" data-tchmi-left-unit="px" data-tchmi-top="52" data-tchmi-top-unit="px" data-tchmi-width="384" data-tchmi-width-unit="px">
+
+</div>
+
+<div id="TcHmiTextblock" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="82" data-tchmi-left-unit="px" data-tchmi-text="Parameters Stand CW2:" data-tchmi-top="99" data-tchmi-top-unit="px" data-tchmi-width="172" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-label"
+]
+</script>
+</div>
+
+<div id="TcHmiTextblock_1" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="630" data-tchmi-left-unit="px" data-tchmi-text="Parameters Stand CW1:" data-tchmi-top="108" data-tchmi-top-unit="px" data-tchmi-width="172" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-label"
+]
+</script>
+</div>
+
+</div>
