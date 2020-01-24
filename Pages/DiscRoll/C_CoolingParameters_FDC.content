@@ -1,0 +1,210 @@
+﻿<div id="C_CoolingParameters_FDC" data-tchmi-type="tchmi-content" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="1216" data-tchmi-height="550">
+
+<div id="TcHmiTextblock_33" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="117" data-tchmi-left-unit="px" data-tchmi-text="Number of banks:" data-tchmi-top="351" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-Label"
+]
+</script>
+</div>
+
+<div id="TcHmiTextblock_34" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="118" data-tchmi-left-unit="px" data-tchmi-text="Speed Pinch Rolls:" data-tchmi-top="112" data-tchmi-top-unit="px" data-tchmi-width="177" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-Label"
+]
+</script>
+</div>
+
+<div id="TcHmiTextblock_35" data-tchmi-type="tchmi-textblock" data-tchmi-height="24" data-tchmi-height-unit="px" data-tchmi-left="349" data-tchmi-left-unit="px" data-tchmi-text="m/s" data-tchmi-top="138" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="6">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-Unit"
+]
+</script>
+</div>
+
+<div id="lblFDCParameters" data-tchmi-type="tchmi-textblock" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="425" data-tchmi-left-unit="px" data-tchmi-text="FDC Parameters:" data-tchmi-top="26" data-tchmi-top-unit="px" data-tchmi-width="318" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="6">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-SubTitleLabel"
+]
+</script>
+</div>
+
+<div id="txtFurnaceTemperature_1" data-tchmi-type="tchmi-textbox" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="306" data-tchmi-left-unit="px"  data-tchmi-top="112" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="5">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-Label"
+]
+</script>
+</div>
+
+<div id="cobCoolingMethod_1" data-tchmi-type="tchmi-combobox" data-tchmi-combobox-text="Select" data-tchmi-height="34" data-tchmi-height-unit="px" data-tchmi-left="294" data-tchmi-left-unit="px" data-tchmi-top="351" data-tchmi-top-unit="px" data-tchmi-width="212" data-tchmi-width-unit="px" data-tchmi-zindex="6">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+</div>
+
+<div id="TcHmiTextblock_36" data-tchmi-type="tchmi-textblock" data-tchmi-height="19" data-tchmi-height-unit="px" data-tchmi-left="147" data-tchmi-left-unit="px"                     data-tchmi-top="510" data-tchmi-top-unit="px" data-tchmi-width="920" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6"                data-tchmi-text=" " " " " " ">
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Action"
+]
+</script>
+</div>
+
+<div id="TcHmiTextblock_37" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="117" data-tchmi-left-unit="px" data-tchmi-text="Speed Pump:" data-tchmi-top="184" data-tchmi-top-unit="px" data-tchmi-width="177" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-Label"
+]
+</script>
+</div>
+
+<div id="TcHmiTextblock_38" data-tchmi-type="tchmi-textblock" data-tchmi-height="24" data-tchmi-height-unit="px" data-tchmi-left="350" data-tchmi-left-unit="px" data-tchmi-text="tr/min" data-tchmi-top="211" data-tchmi-top-unit="px" data-tchmi-width="47" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="6">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-Unit"
+]
+</script>
+</div>
+
+<div id="txtFurnaceTemperature_2" data-tchmi-type="tchmi-textbox" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="307" data-tchmi-left-unit="px"  data-tchmi-top="185" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="5">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-Label"
+]
+</script>
+</div>
+
+<div id="TcHmiTextblock_39" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="117" data-tchmi-left-unit="px" data-tchmi-text="Start FDC at pass:" data-tchmi-top="268" data-tchmi-top-unit="px" data-tchmi-width="177" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-Label"
+]
+</script>
+</div>
+
+<div id="TcHmiTextblock_40" data-tchmi-type="tchmi-textblock" data-tchmi-height="24" data-tchmi-height-unit="px" data-tchmi-left="350" data-tchmi-left-unit="px" data-tchmi-text="tr/min" data-tchmi-top="295" data-tchmi-top-unit="px" data-tchmi-width="47" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="6">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-Unit"
+]
+</script>
+</div>
+
+<div id="txtFurnaceTemperature_3" data-tchmi-type="tchmi-textbox" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="307" data-tchmi-left-unit="px"  data-tchmi-top="269" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="5">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-Label"
+]
+</script>
+</div>
+
+<div id="btn_TestParameters" data-tchmi-type="tchmi-button" data-tchmi-height="70" data-tchmi-height-unit="px" data-tchmi-left="492" data-tchmi-left-unit="px" data-tchmi-text="Test Parameters" data-tchmi-top="424" data-tchmi-top-unit="px" data-tchmi-width="226" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Interface"
+]
+</script>
+</div>
+
+<div id="TcHmiRectangle_4" data-tchmi-type="tchmi-rectangle" data-tchmi-height="530" data-tchmi-height-unit="px" data-tchmi-left="35" data-tchmi-left-unit="px" data-tchmi-top="14" data-tchmi-top-unit="px" data-tchmi-width="1157" data-tchmi-width-unit="px" data-tchmi-zindex="2">
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 5,
+  "right": 5,
+  "top": 5,
+  "bottom": 5,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(169, 170, 190, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "None"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+{
+  "color": "None"
+}
+</script>
+</div>
+
+</div>

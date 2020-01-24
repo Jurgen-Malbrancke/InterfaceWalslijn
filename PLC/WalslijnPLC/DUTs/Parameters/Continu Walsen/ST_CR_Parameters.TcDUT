@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.2">
+  <DUT Name="ST_CR_Parameters" Id="{8531ac6f-0779-4e95-9642-850b796e3115}">
+    <Declaration><![CDATA[TYPE ST_CR_Parameters :
+STRUCT
+	rollingConfiguration	: ENUM_CR_RollingConfiguration;
+	coil					: ST_CR_Coil;
+	temperatureMode			: ENUM_CR_TemperatureMode;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.2">
+  <DUT Name="ST_SampleParameters" Id="{f6a2392e-7fc9-46df-85ea-f8d732159323}">
+    <Declaration><![CDATA[TYPE ST_SampleParameters :
+STRUCT
+	thickness			: REAL;
+	width				: REAL;
+	length				: REAL;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

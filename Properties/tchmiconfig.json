@@ -61,6 +61,14 @@
       "preload": false
     },
     {
+      "url": "Pages/DiscRoll/C_CoolingParameters_FDC.content",
+      "preload": false
+    },
+    {
+      "url": "Pages/DiscRoll/C_Parameters_DiscRoll_Left.content",
+      "preload": false
+    },
+    {
       "url": "Pages/DiscRoll/C_Parameters_DiscRoll_Right.content",
       "preload": false
     },

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.2">
+  <DUT Name="ENUM_DCR_RollStand" Id="{4608f7bf-53ac-414e-b4d7-b19b8d404f6c}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+{attribute 'strict'}
+TYPE ENUM_DCR_RollStand :
+(
+	CW2 	:= 0,	//enkel wals 2, default
+	CW1 	:= 1	//enkel wals 1
+);
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

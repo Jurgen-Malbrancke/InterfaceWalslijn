@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.2">
+  <DUT Name="ST_RollingConditions" Id="{c56b712c-0c84-446e-b738-515e02350e1a}">
+    <Declaration><![CDATA[TYPE ST_RollingConditions :
+STRUCT
+	temperature		: REAL;
+	coolingMethod	: ENUM_CoolingMethod;
+	fdcParameters	: ST_FDC_Parameters;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

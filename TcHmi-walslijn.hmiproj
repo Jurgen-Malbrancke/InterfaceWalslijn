@@ -11,7 +11,7 @@
     <HmiVerboseLevel>2</HmiVerboseLevel>
     <HmiVersion>1.0.0.0</HmiVersion>
     <Name>TcHmi-walslijn</Name>
-    <HmiCommunicationRouterPort>10104</HmiCommunicationRouterPort>
+    <HmiCommunicationRouterPort>10105</HmiCommunicationRouterPort>
     <HmiFrameworkVersion>Latest</HmiFrameworkVersion>
     <HmiCommunicationServerPort>3000</HmiCommunicationServerPort>
     <HmiInitial>1.10.1336.372</HmiInitial>
@@ -90,6 +90,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Pages\C_MainPage.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\DiscRoll\C_CoolingParameters_FDC.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\DiscRoll\C_Parameters_DiscRoll_Left.content">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Pages\DiscRoll\C_Parameters_DiscRoll_Right.content">

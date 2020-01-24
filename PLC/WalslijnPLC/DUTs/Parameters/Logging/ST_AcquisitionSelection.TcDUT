@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.2">
+  <DUT Name="ST_AcquisitionSelection" Id="{fec99af4-0095-4d1c-b967-ba7547d723ad}">
+    <Declaration><![CDATA[TYPE ST_AcquisitionSelection :
+STRUCT
+	
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

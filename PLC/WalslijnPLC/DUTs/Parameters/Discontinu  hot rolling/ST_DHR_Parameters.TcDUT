@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.2">
+  <DUT Name="ST_DHR_Parameters" Id="{9cbf1840-a024-4c04-bdf5-dbda0b1fb295}">
+    <Declaration><![CDATA[TYPE ST_DHR_Parameters :
+STRUCT
+	sampleParameters		: ST_SampleParameters;
+	rollingConditions		: ST_RollingConditions;
+	rollingSchedule			: ARRAY[0..14] OF ST_DHR_Rollingschedule_Entry;
+	parametersStandCw1		: ST_DHR_ParameterStand;
+	parametersStandCw2		: ST_DHR_ParameterStand;
+	{info 'TODO: implmement logging config data'} 
+	acquisitionSelection	: ST_AcquisitionSelection;
+	programOptions			: ST_DHR_ProgramOptions;
+	
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

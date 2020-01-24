@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.2">
+  <DUT Name="ENUM_CR_TemperatureMode" Id="{041e82c0-b104-4970-abdf-c9defeb3a16b}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+{attribute 'strict'}
+TYPE ENUM_CR_TemperatureMode :
+(
+	hot := 0,
+	cold :=1
+);
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

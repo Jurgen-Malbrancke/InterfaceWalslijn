@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.2">
+  <DUT Name="ST_DCR_ProgramOptions" Id="{b27156dd-3920-4cc9-8117-464096561f4a}">
+    <Declaration><![CDATA[TYPE ST_DCR_ProgramOptions :
+STRUCT
+	rollingSpeed			: REAL;		//snelheid van wals in tr/min
+	forceToReleaseSample	: REAL;		//gewicht in ton voor detectie van het stuk
+	timeTableCanMoveBack	: REAL;		//tijd in seconden dat de tafel terug rijdt, bij afwezigheid van eindeloop
+	tableHorizontalPos		: REAL;		//analoge positiemeting of terugkoppeling cilinder (momenteel afwezig)
+	adaptRollGapAuto		: BOOL;		//automatisch roll gap verkleinen
+	adaptationToRollGap		: REAL;		//indien adapt rollgap is geselecteerd, roll gap verkleinen met deze waarde in mm
+	nrOfEqualSamples		: USINT;	//hoeveel keer hetzelfde product door de walsspleet duwen
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

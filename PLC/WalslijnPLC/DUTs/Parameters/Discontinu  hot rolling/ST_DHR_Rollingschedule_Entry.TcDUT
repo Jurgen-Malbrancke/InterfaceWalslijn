@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.2">
+  <DUT Name="ST_DHR_Rollingschedule_Entry" Id="{c155aa85-b376-4e7a-9146-8188e32aa093}">
+    <Declaration><![CDATA[TYPE ST_DHR_Rollingschedule_Entry :
+STRUCT
+	rollGap 		: REAL;	//mm
+	reduction		: REAL;	//%
+	Temperature 	: REAL; //°C
+	stand			: ENUM_DCR_RollStand;	//keuze wals(en)
+	
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

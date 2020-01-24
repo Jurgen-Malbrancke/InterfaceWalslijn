@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.2">
+  <DUT Name="ST_CR_CW" Id="{7c633d87-05dd-4f7b-b9ce-1a6678939398}">
+    <Declaration><![CDATA[TYPE ST_CR_CW :
+STRUCT
+	rollGap		: REAL;		// mm
+	rollSpeed	: REAL;		// m/s
+	acc			: REAL;		// m/s³
+	tensionAfw	: REAL;		//trekspanning in N/mm² TODO bij dual stand?
+	tensionOpw	: REAL;		//trekspanning in N/mm²	TODO	bij dual stand?
+
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.2">
+  <DUT Name="ST_LogStandard" Id="{4841c15c-8203-472d-a101-781b2a839fb4}">
+    <Declaration><![CDATA[TYPE ST_LogStandard :
+STRUCT
+	bEnable		: BOOL;		//logging in of uitschakelen
+	nSampleRate	: INT;		//snelheid datalog in hz
+	bBufferVol	: BOOL;		//buffer is vol
+	
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.2">
+  <DUT Name="ST_DHR_ParameterStand" Id="{8ef7e40e-8ca2-4f18-9d90-2261942a3e80}">
+    <Declaration><![CDATA[TYPE ST_DHR_ParameterStand :
+STRUCT
+	firstPass				: ENUM_FirstPass;
+	changeRotationEachPass 	: BOOL:=TRUE;
+	minForceForNextPass		: REAL:=20.0;		// ton
+	rollingSpeed			: REAL:=33.0;//rpm (voor discontinu)
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

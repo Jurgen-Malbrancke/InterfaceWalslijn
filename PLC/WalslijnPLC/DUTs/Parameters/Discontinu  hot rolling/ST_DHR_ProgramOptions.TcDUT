@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.2">
+  <DUT Name="ST_DHR_ProgramOptions" Id="{b0357bd4-4edd-418a-ba06-ab4a0425c8a4}">
+    <Declaration><![CDATA[TYPE ST_DHR_ProgramOptions :
+STRUCT
+	automaticEndAcquisition			: BOOL;		//logging automatisch stoppen bij einde proef,indien niet geselecteerd moet operator de logging beeindigen
+	rollThickBlocksOnCw2			: BOOL;		//ipv eerst draaizin te wijzigen, walsspleet zakken en dan pas draaizin wijzigen
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.2">
+  <DUT Name="ST_CR_Coil" Id="{7fa9b3de-20f4-4885-b28c-713d8adbfd50}">
+    <Declaration><![CDATA[TYPE ST_CR_Coil :
+STRUCT
+	diameter			: REAL;		//start diameter voor proef in mm		
+	stripThickness 		: REAL;		//mm
+	stripWidth			: REAL;		//mm
+	
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>
