@@ -92,10 +92,10 @@
     <Content Include="Pages\C_MainPage.content">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Pages\DiscRoll\C_DiscRoll.content">
+    <Content Include="Pages\DiscRoll\C_Parameters_DiscRoll_Right.content">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Pages\DiscRoll\C_Parameters_DiscRoll_Right.content">
+    <Content Include="Pages\DiscRoll\GlobalPage\C_DiscRoll.content">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Themes\MPC\MPC.theme">
@@ -115,6 +115,7 @@
     <Folder Include="Pages" />
     <Folder Include="Pages\DiscRoll" />
     <Folder Include="Pages\ContRoll" />
+    <Folder Include="Pages\DiscRoll\GlobalPage" />
     <Folder Include="Server\Extensions\ADS" />
     <Folder Include="Server\Extensions\TcHmiEventLogger" />
     <Folder Include="Server\Extensions\TcHmiLua" />

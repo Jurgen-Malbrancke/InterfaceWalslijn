@@ -19,12 +19,6 @@
       },
       "themedResources": {}
     },
-    "tchmi-textblock": {
-      "attributes": {
-        "TextHorizontalAlignment": "Center"
-      },
-      "themedResources": {}
-    },
     "tchmi-content": {
       "attributes": {
         "BackgroundColor": {
@@ -46,17 +40,6 @@
       },
       "themedResources": {}
     },
-    "btn-Interface": {
-      "attributes": {
-        "BackgroundColor": {
-          "color": "rgba(169, 211, 71, 0.9803921)"
-        },
-        "TextColor": {
-          "color": "rgba(255, 255, 255, 1)"
-        }
-      },
-      "themedResources": {}
-    },
     "btn-End": {
       "attributes": {
         "TextColor": {
@@ -70,13 +53,60 @@
       },
       "themedResources": {}
     },
-    "txt-label": {
+    "btn-Interface": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(169, 211, 71, 0.9803921)"
+        },
+        "TextColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "cbx-Interface": {
+      "attributes": {},
+      "themedResources": {}
+    },
+    "txt-SubTitleLabel": {
       "attributes": {
         "BackgroundColor": {
           "color": "rgba(66, 163, 221, 1)"
         },
         "TextColor": {
           "color": "rgba(255, 255, 255, 1)"
+        },
+        "TextFontSize": 22.0
+      },
+      "themedResources": {}
+    },
+    "txt-Label": {
+      "attributes": {
+        "TextFontSize": 20.0,
+        "TextColor": {
+          "color": "rgba(13, 34, 193, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "txt-InputNr": {
+      "attributes": {
+        "TextColor": {
+          "color": "rgba(13, 34, 193, 1)"
+        },
+        "TextFontSize": 20.0
+      },
+      "themedResources": {}
+    },
+    "txt-Unit": {
+      "attributes": {
+        "TextColor": {
+          "color": "rgba(13, 34, 193, 1)"
+        },
+        "TextFontSize": 16.0,
+        "TextFontWeight": "Bold",
+        "BackgroundColor": {
+          "color": "rgba(193, 189, 189, 1)"
         }
       },
       "themedResources": {}
