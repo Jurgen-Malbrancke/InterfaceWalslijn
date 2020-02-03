@@ -1,6 +1,6 @@
 ﻿<div id="C_Parameters_DiscRoll_Left" data-tchmi-type="tchmi-content" data-tchmi-top="0" data-tchmi-left="20" data-tchmi-width="1256" data-tchmi-height="1250" data-tchmi-left-unit="px" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-height-unit="px" data-tchmi-zindex="1">
 
-<div id="grdRollingSchedule" data-tchmi-type="tchmi-datagrid" data-tchmi-height="504" data-tchmi-height-unit="px" data-tchmi-left="680" data-tchmi-left-unit="px"    data-tchmi-top="106" data-tchmi-top-unit="px" data-tchmi-width="445" data-tchmi-width-unit="px" data-tchmi-src-data="" data-tchmi-right-unit="px" data-tchmi-zindex="2" data-tchmi-header-font-size="20" data-tchmi-show-row-numbers="True" data-tchmi-row-numbers-resizable="True">
+<div id="grdRollingSchedule" data-tchmi-type="tchmi-datagrid" data-tchmi-height="504" data-tchmi-height-unit="px" data-tchmi-left="676" data-tchmi-left-unit="px"    data-tchmi-top="57" data-tchmi-top-unit="px" data-tchmi-width="445" data-tchmi-width-unit="px" data-tchmi-src-data="" data-tchmi-right-unit="px" data-tchmi-zindex="2" data-tchmi-header-font-size="20" data-tchmi-show-row-numbers="True" data-tchmi-row-numbers-resizable="True">
 <script data-tchmi-target-attribute="data-tchmi-src-column" type="application/json">
 [
   {
@@ -110,7 +110,7 @@
 
 </div>
 
-<div id="TcHmiTextblock_23" data-tchmi-type="tchmi-textblock" data-tchmi-height="24" data-tchmi-height-unit="px" data-tchmi-left="302" data-tchmi-left-unit="px" data-tchmi-text="mm" data-tchmi-top="168" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="7">
+<div id="TcHmiTextblock_23" data-tchmi-type="tchmi-textblock" data-tchmi-height="24" data-tchmi-height-unit="px" data-tchmi-left="299" data-tchmi-left-unit="px" data-tchmi-text="mm" data-tchmi-top="118" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="7">
 
 
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
@@ -120,7 +120,7 @@
 </script>
 </div>
 
-<div id="txtThickness" data-tchmi-type="tchmi-textbox" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="257" data-tchmi-left-unit="px" data-tchmi-text="" data-tchmi-top="142" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="6">
+<div id="txtThickness" data-tchmi-type="tchmi-textbox" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="254" data-tchmi-left-unit="px" data-tchmi-text="" data-tchmi-top="92" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="6">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -138,7 +138,7 @@
 </script>
 </div>
 
-<div id="TcHmiTextblock_24" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="124" data-tchmi-left-unit="px" data-tchmi-text="Thickness:" data-tchmi-top="142" data-tchmi-top-unit="px" data-tchmi-width="105" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
+<div id="TcHmiTextblock_24" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="121" data-tchmi-left-unit="px" data-tchmi-text="Thickness:" data-tchmi-top="92" data-tchmi-top-unit="px" data-tchmi-width="105" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
 
 
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
@@ -148,7 +148,7 @@
 </script>
 </div>
 
-<div id="lblParametersSample" data-tchmi-type="tchmi-textblock" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="83" data-tchmi-left-unit="px" data-tchmi-text="Sample Parameters:" data-tchmi-top="69" data-tchmi-top-unit="px" data-tchmi-width="318" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="7">
+<div id="lblParametersSample" data-tchmi-type="tchmi-textblock" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="80" data-tchmi-left-unit="px" data-tchmi-text="Sample Parameters:" data-tchmi-top="19" data-tchmi-top-unit="px" data-tchmi-width="318" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="7">
 
 
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
@@ -158,7 +158,7 @@
 </script>
 </div>
 
-<div id="cobCoolingMethod" data-tchmi-type="tchmi-combobox" data-tchmi-combobox-text="Select" data-tchmi-height="34" data-tchmi-height-unit="px" data-tchmi-left="302" data-tchmi-left-unit="px" data-tchmi-top="510" data-tchmi-top-unit="px" data-tchmi-width="212" data-tchmi-width-unit="px" data-tchmi-zindex="7">
+<div id="cobCoolingMethod" data-tchmi-type="tchmi-combobox" data-tchmi-combobox-text="Select" data-tchmi-height="34" data-tchmi-height-unit="px" data-tchmi-left="299" data-tchmi-left-unit="px" data-tchmi-top="460" data-tchmi-top-unit="px" data-tchmi-width="212" data-tchmi-width-unit="px" data-tchmi-zindex="7">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -247,7 +247,7 @@
 </script>
 </div>
 
-<div id="TcHmiTextblock_25" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="114" data-tchmi-left-unit="px" data-tchmi-text="Cooling method:" data-tchmi-top="515" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
+<div id="TcHmiTextblock_25" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="111" data-tchmi-left-unit="px" data-tchmi-text="Cooling method:" data-tchmi-top="465" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
 
 
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
@@ -257,7 +257,7 @@
 </script>
 </div>
 
-<div id="TcHmiTextblock_27" data-tchmi-type="tchmi-textblock" data-tchmi-height="24" data-tchmi-height-unit="px" data-tchmi-left="302" data-tchmi-left-unit="px" data-tchmi-text="mm" data-tchmi-top="221" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="7">
+<div id="TcHmiTextblock_27" data-tchmi-type="tchmi-textblock" data-tchmi-height="24" data-tchmi-height-unit="px" data-tchmi-left="299" data-tchmi-left-unit="px" data-tchmi-text="mm" data-tchmi-top="171" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="7">
 
 
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
@@ -267,7 +267,7 @@
 </script>
 </div>
 
-<div id="txtWidth" data-tchmi-type="tchmi-textbox" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="257" data-tchmi-left-unit="px"  data-tchmi-top="195" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="6">
+<div id="txtWidth" data-tchmi-type="tchmi-textbox" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="254" data-tchmi-left-unit="px"  data-tchmi-top="145" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="6">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -285,7 +285,7 @@
 </script>
 </div>
 
-<div id="TcHmiTextblock_28" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="124" data-tchmi-left-unit="px" data-tchmi-text="Width:" data-tchmi-top="195" data-tchmi-top-unit="px" data-tchmi-width="105" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
+<div id="TcHmiTextblock_28" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="121" data-tchmi-left-unit="px" data-tchmi-text="Width:" data-tchmi-top="145" data-tchmi-top-unit="px" data-tchmi-width="105" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
 
 
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
@@ -295,7 +295,7 @@
 </script>
 </div>
 
-<div id="TcHmiTextblock_29" data-tchmi-type="tchmi-textblock" data-tchmi-height="24" data-tchmi-height-unit="px" data-tchmi-left="302" data-tchmi-left-unit="px" data-tchmi-text="mm" data-tchmi-top="271" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="7">
+<div id="TcHmiTextblock_29" data-tchmi-type="tchmi-textblock" data-tchmi-height="24" data-tchmi-height-unit="px" data-tchmi-left="299" data-tchmi-left-unit="px" data-tchmi-text="mm" data-tchmi-top="221" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="7">
 
 
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
@@ -305,7 +305,7 @@
 </script>
 </div>
 
-<div id="txtLength" data-tchmi-type="tchmi-textbox" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="257" data-tchmi-left-unit="px"  data-tchmi-top="245" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="6">
+<div id="txtLength" data-tchmi-type="tchmi-textbox" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="254" data-tchmi-left-unit="px"  data-tchmi-top="195" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="6">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -323,7 +323,7 @@
 </script>
 </div>
 
-<div id="TcHmiTextblock_30" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="124" data-tchmi-left-unit="px" data-tchmi-text="Length:" data-tchmi-top="245" data-tchmi-top-unit="px" data-tchmi-width="105" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
+<div id="TcHmiTextblock_30" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="121" data-tchmi-left-unit="px" data-tchmi-text="Length:" data-tchmi-top="195" data-tchmi-top-unit="px" data-tchmi-width="105" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
 
 
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
@@ -333,7 +333,7 @@
 </script>
 </div>
 
-<div id="txtFurnaceTemperature" data-tchmi-type="tchmi-textbox" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="302" data-tchmi-left-unit="px"  data-tchmi-top="453" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="6">
+<div id="txtFurnaceTemperature" data-tchmi-type="tchmi-textbox" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="299" data-tchmi-left-unit="px"  data-tchmi-top="403" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="6">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -351,7 +351,7 @@
 </script>
 </div>
 
-<div id="TcHmiTextblock_31" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="114" data-tchmi-left-unit="px" data-tchmi-text="Furnace Temperature:" data-tchmi-top="453" data-tchmi-top-unit="px" data-tchmi-width="177" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
+<div id="TcHmiTextblock_31" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="111" data-tchmi-left-unit="px" data-tchmi-text="Furnace Temperature:" data-tchmi-top="403" data-tchmi-top-unit="px" data-tchmi-width="177" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
 
 
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
@@ -361,7 +361,7 @@
 </script>
 </div>
 
-<div id="lblRollingConditions" data-tchmi-type="tchmi-textblock" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="83" data-tchmi-left-unit="px" data-tchmi-text="Rolling conditions:" data-tchmi-top="381" data-tchmi-top-unit="px" data-tchmi-width="318" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="7">
+<div id="lblRollingConditions" data-tchmi-type="tchmi-textblock" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="80" data-tchmi-left-unit="px" data-tchmi-text="Rolling conditions:" data-tchmi-top="331" data-tchmi-top-unit="px" data-tchmi-width="318" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="7">
 
 
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
@@ -371,7 +371,7 @@
 </script>
 </div>
 
-<div id="TcHmiTextblock_32" data-tchmi-type="tchmi-textblock" data-tchmi-height="24" data-tchmi-height-unit="px" data-tchmi-left="345" data-tchmi-left-unit="px" data-tchmi-text="°C" data-tchmi-top="479" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="7">
+<div id="TcHmiTextblock_32" data-tchmi-type="tchmi-textblock" data-tchmi-height="24" data-tchmi-height-unit="px" data-tchmi-left="342" data-tchmi-left-unit="px" data-tchmi-text="°C" data-tchmi-top="429" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="7">
 
 
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
@@ -381,7 +381,7 @@
 </script>
 </div>
 
-<div id="lblParametersSample_1" data-tchmi-type="tchmi-textblock" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="680" data-tchmi-left-unit="px" data-tchmi-text="Rolling Schedule:" data-tchmi-top="68" data-tchmi-top-unit="px" data-tchmi-width="445" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="7">
+<div id="lblParametersSample_1" data-tchmi-type="tchmi-textblock" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="676" data-tchmi-left-unit="px" data-tchmi-text="Rolling Schedule:" data-tchmi-top="19" data-tchmi-top-unit="px" data-tchmi-width="445" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="7">
 
 
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
@@ -391,11 +391,11 @@
 </script>
 </div>
 
-<div id="Region_DiscRoll_LeftCoolingDetails" data-tchmi-type="tchmi-region" data-tchmi-height-unit="px" data-tchmi-left="24" data-tchmi-left-unit="px" data-tchmi-top="637" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-right="16" data-tchmi-bottom="60" data-tchmi-zindex="1">
+<div id="Region_DiscRoll_LeftCoolingDetails" data-tchmi-type="tchmi-region" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-top="637" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-right="20" data-tchmi-bottom="60" data-tchmi-zindex="1">
 
 </div>
 
-<div id="TcHmiRectangle_5" data-tchmi-type="tchmi-rectangle" data-tchmi-height="570" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-top="40" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-zindex="0" data-tchmi-right="20">
+<div id="TcHmiRectangle_5" data-tchmi-type="tchmi-rectangle" data-tchmi-height="610" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-zindex="0" data-tchmi-right="20">
 
 
 
@@ -431,6 +431,18 @@
 {
   "color": "None"
 }
+</script>
+</div>
+
+<div id="TcHmiTextblock_41" data-tchmi-type="tchmi-textblock" data-tchmi-height="19" data-tchmi-height-unit="px" data-tchmi-left="147" data-tchmi-left-unit="px"                     data-tchmi-top="577" data-tchmi-top-unit="px" data-tchmi-width="920" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6"                        data-tchmi-text=" " ">
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Action"
+]
 </script>
 </div>
 

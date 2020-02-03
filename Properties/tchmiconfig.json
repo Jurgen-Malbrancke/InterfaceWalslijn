@@ -57,7 +57,11 @@
       "preload": false
     },
     {
-      "url": "Pages/DiscRoll/GlobalPage/C_DiscRoll.content",
+      "url": "Pages/DiscRoll/GlobalPage/C_DiscRollParameters.content",
+      "preload": false
+    },
+    {
+      "url": "Pages/DiscRoll/GlobalPage/C_DiscRollTrial.content",
       "preload": false
     },
     {
@@ -70,6 +74,34 @@
     },
     {
       "url": "Pages/DiscRoll/C_Parameters_DiscRoll_Right.content",
+      "preload": false
+    },
+    {
+      "url": "Pages/DiscRoll/C_Trial_DiscRoll_CW1.content",
+      "preload": false
+    },
+    {
+      "url": "Pages/DiscRoll/C_Trial_DiscRoll_CW2.content",
+      "preload": false
+    },
+    {
+      "url": "Pages/DiscRoll/C_Trial_DiscRoll_Empty.content",
+      "preload": false
+    },
+    {
+      "url": "Pages/DiscRoll/C_Trial_DiscRoll_FDC.content",
+      "preload": false
+    },
+    {
+      "url": "Pages/DiscRoll/C_Trial_DiscRoll_Left.content",
+      "preload": false
+    },
+    {
+      "url": "Pages/DiscRoll/C_Trial_DiscRoll_Right.content",
+      "preload": false
+    },
+    {
+      "url": "Pages/DiscRoll/C_Trial_DiscRoll_RightBeforeStart.content",
       "preload": false
     },
     {

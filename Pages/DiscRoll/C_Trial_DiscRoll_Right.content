@@ -1,0 +1,25 @@
+﻿<div id="C_Trial_DiscRoll_Right" data-tchmi-type="tchmi-content" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="1950" data-tchmi-height="1240" data-tchmi-zindex="1" data-tchmi-zindex="2">
+
+<div id="lblOverviewRollingPlatform" data-tchmi-type="tchmi-textblock" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="456" data-tchmi-left-unit="px" data-tchmi-text="Overview Rolling Platform:" data-tchmi-top="20" data-tchmi-top-unit="px" data-tchmi-width="878" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="9" data-tchmi-text-font-size="30">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-SubTitleLabel"
+]
+</script>
+</div>
+
+<div id="Region_DiscRollTrial_CW2" data-tchmi-type="tchmi-region" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-top="76" data-tchmi-top-unit="px" data-tchmi-width="630" data-tchmi-width-unit="px" data-tchmi-bottom="0" data-tchmi-zindex="1" data-tchmi-target-content="Pages/DiscRoll/C_Trial_DiscRoll_CW2.content">
+
+</div>
+
+<div id="Region_DiscRollTrial_CW1" data-tchmi-type="tchmi-region" data-tchmi-height-unit="px" data-tchmi-left="665" data-tchmi-left-unit="px" data-tchmi-top="75" data-tchmi-top-unit="px" data-tchmi-width="630" data-tchmi-width-unit="px" data-tchmi-bottom="0" data-tchmi-zindex="0" data-tchmi-target-content="Pages/DiscRoll/C_Trial_DiscRoll_CW1.content">
+
+</div>
+
+<div id="Region_DiscRollTrial_FDC" data-tchmi-type="tchmi-region" data-tchmi-height-unit="px" data-tchmi-left-unit="px" data-tchmi-top="75" data-tchmi-top-unit="px" data-tchmi-width="630" data-tchmi-width-unit="px" data-tchmi-bottom="0" data-tchmi-right="10" data-tchmi-zindex="2" data-tchmi-target-content="Pages/DiscRoll/C_Trial_DiscRoll_FDC.content">
+
+</div>
+
+</div>

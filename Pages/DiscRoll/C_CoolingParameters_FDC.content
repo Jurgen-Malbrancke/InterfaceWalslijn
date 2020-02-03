@@ -70,7 +70,7 @@
 
 </div>
 
-<div id="TcHmiTextblock_36" data-tchmi-type="tchmi-textblock" data-tchmi-height="19" data-tchmi-height-unit="px" data-tchmi-left="147" data-tchmi-left-unit="px"                     data-tchmi-top="510" data-tchmi-top-unit="px" data-tchmi-width="920" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6"                data-tchmi-text=" " " " " " ">
+<div id="TcHmiTextblock_36" data-tchmi-type="tchmi-textblock" data-tchmi-height="19" data-tchmi-height-unit="px" data-tchmi-left-unit="px"                     data-tchmi-top="511" data-tchmi-top-unit="px" data-tchmi-width="920" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6"                data-tchmi-text=" " " " " " " " " " " " data-tchmi-bottom="2 data-tchmi-left="73" data-tchmi-left="88"0">
 
 
 
@@ -168,7 +168,7 @@
 </script>
 </div>
 
-<div id="TcHmiRectangle_4" data-tchmi-type="tchmi-rectangle" data-tchmi-height="530" data-tchmi-height-unit="px" data-tchmi-left="35" data-tchmi-left-unit="px" data-tchmi-top="14" data-tchmi-top-unit="px" data-tchmi-width="1157" data-tchmi-width-unit="px" data-tchmi-zindex="2">
+<div id="TcHmiRectangle_4" data-tchmi-type="tchmi-rectangle" data-tchmi-height="530" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-zindex="2">
 
 
 

@@ -1,0 +1,279 @@
+﻿<div id="C_Trial_DiscRoll_Left" data-tchmi-type="tchmi-content" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="540" data-tchmi-height="1240">
+
+<div id="grdRollingSchedule_1" data-tchmi-type="tchmi-datagrid" data-tchmi-height="504" data-tchmi-height-unit="px" data-tchmi-left="40" data-tchmi-left-unit="px"    data-tchmi-top="678" data-tchmi-top-unit="px" data-tchmi-width="445" data-tchmi-width-unit="px"  data-tchmi-right-unit="px" data-tchmi-zindex="2" data-tchmi-header-font-size="20" data-tchmi-show-row-numbers="True" data-tchmi-row-numbers-resizable="True">
+<script data-tchmi-target-attribute="data-tchmi-src-column" type="application/json">
+[
+  {
+    "name": "nRollGap",
+    "label": "Roll Gap",
+    "control": "TextBox",
+    "width": 100,
+    "widthUnit": "px",
+    "resize": true,
+    "sortable": false,
+    "minWidth": 100,
+    "minWidthUnit": "px",
+    "cellBackground": null,
+    "textColor": null,
+    "editable": true,
+    "horizontalAlignment": "Left",
+    "verticalAlignment": "Center",
+    "format": {
+      "objectType": "Function",
+      "active": true,
+      "fn": "GaugeValueFormatter",
+      "fnParams": [
+        {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:general#/definitions/Number",
+          "value": 2.0
+        }
+      ]
+    }
+  },
+  {
+    "name": "nReduction",
+    "label": "Reduction",
+    "control": "TextBox",
+    "width": 100,
+    "widthUnit": "px",
+    "resize": true,
+    "sortable": false,
+    "minWidth": 100,
+    "minWidthUnit": "px",
+    "cellBackground": null,
+    "textColor": null,
+    "editable": true,
+    "horizontalAlignment": "Left",
+    "verticalAlignment": "Center",
+    "format": null
+  },
+  {
+    "name": "nTemperature",
+    "label": "Temperature",
+    "control": "TextBox",
+    "width": 100,
+    "widthUnit": "px",
+    "resize": true,
+    "sortable": false,
+    "minWidth": 100,
+    "minWidthUnit": "px",
+    "cellBackground": null,
+    "textColor": null,
+    "editable": true,
+    "horizontalAlignment": "Left",
+    "verticalAlignment": "Center",
+    "format": null
+  },
+  {
+    "name": "nStand",
+    "label": "Stand",
+    "control": "ComboBox",
+    "width": 100,
+    "widthUnit": "px",
+    "resize": true,
+    "sortable": false,
+    "minWidth": 100,
+    "minWidthUnit": "px",
+    "cellBackground": null,
+    "textColor": null,
+    "editable": true,
+    "horizontalAlignment": "Left",
+    "verticalAlignment": "Center",
+    "format": null,
+    "dataDefinitions": [
+      {
+        "text": "series 2",
+        "value": "2"
+      },
+      {
+        "text": "Series 1",
+        "value": "1"
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-cell-content-padding" type="application/json">
+{
+  "left": 3,
+  "leftUnit": "px",
+  "right": 3,
+  "rightUnit": "px",
+  "top": 0,
+  "topUnit": "px",
+  "bottom": 0,
+  "bottomUnit": "px"
+}
+</script>
+
+</div>
+
+<div id="lblCurrentPass" data-tchmi-type="tchmi-textblock" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="40" data-tchmi-left-unit="px" data-tchmi-text="Rolling Schedule:" data-tchmi-top="558" data-tchmi-top-unit="px" data-tchmi-width="445" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="7">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-SubTitleLabel"
+]
+</script>
+</div>
+
+<div id="lblCurrentTask" data-tchmi-type="tchmi-textblock" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="40" data-tchmi-left-unit="px" data-tchmi-text="Current Task:" data-tchmi-top="20" data-tchmi-top-unit="px" data-tchmi-width="446" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="7">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-SubTitleLabel"
+]
+</script>
+</div>
+
+<div id="TcHmiTextblock_42" data-tchmi-type="tchmi-textblock" data-tchmi-height="268" data-tchmi-height-unit="px" data-tchmi-left="40" data-tchmi-left-unit="px" data-tchmi-text="TcHmiTextblock_42" data-tchmi-top="78" data-tchmi-top-unit="px" data-tchmi-width="446" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(205, 201, 201, 1)"
+}
+</script>
+</div>
+
+<div id="lblLogging" data-tchmi-type="tchmi-textblock" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="40" data-tchmi-left-unit="px" data-tchmi-text="Logging:" data-tchmi-top="402" data-tchmi-top-unit="px" data-tchmi-width="445" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="7">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-SubTitleLabel"
+]
+</script>
+</div>
+
+<div id="TcHmiTextblock_43" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="40" data-tchmi-left-unit="px" data-tchmi-text="Logging active:" data-tchmi-top="476" data-tchmi-top-unit="px" data-tchmi-width="147" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-Label"
+]
+</script>
+</div>
+
+<div id="cbxChangeRotationCW2_1" data-tchmi-type="tchmi-checkbox" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="208" data-tchmi-left-unit="px" data-tchmi-top="473" data-tchmi-top-unit="px" data-tchmi-width="35" data-tchmi-width-unit="px" data-tchmi-zindex="6">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "cbxChangeRotationCW2_1.onToggleStateChanged",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%ctrl%cbxChangeRotationCW2::BackgroundColor%/ctrl%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": null
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%cbxChangeRotationCW2::BackgroundColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(17, 200, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%cbxChangeRotationCW2::BackgroundColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": null
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+<div id="TcHmiTextblock_44" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="40" data-tchmi-left-unit="px" data-tchmi-text="Current Pass:" data-tchmi-top="622" data-tchmi-top-unit="px" data-tchmi-width="147" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-Label"
+]
+</script>
+</div>
+
+<div id="TcHmiTextblock_45" data-tchmi-type="tchmi-textblock" data-tchmi-height="42" data-tchmi-height-unit="px" data-tchmi-left="188" data-tchmi-left-unit="px" data-tchmi-text="1" data-tchmi-top="616" data-tchmi-top-unit="px" data-tchmi-width="72" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="25" data-tchmi-text-horizontal-alignment="Center">
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(205, 201, 201, 1)"
+}
+</script>
+</div>
+
+<div id="btnRollingFinished" data-tchmi-type="tchmi-button" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="330" data-tchmi-left-unit="px" data-tchmi-text="Return" data-tchmi-top="474" data-tchmi-top-unit="px" data-tchmi-width="156" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-End"
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btnRollingFinished.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%Region_Main::TargetContent%/ctrl%",
+        "valueType": "tchmi:framework#/definitions/ContentPath",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/ContentPath",
+          "value": "Pages/DiscRoll/GlobalPage/C_DiscRollParameters.content"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+</div>

@@ -11,7 +11,7 @@
     <HmiVerboseLevel>2</HmiVerboseLevel>
     <HmiVersion>1.0.0.0</HmiVersion>
     <Name>TcHmi-walslijn</Name>
-    <HmiCommunicationRouterPort>10105</HmiCommunicationRouterPort>
+    <HmiCommunicationRouterPort>10106</HmiCommunicationRouterPort>
     <HmiFrameworkVersion>Latest</HmiFrameworkVersion>
     <HmiCommunicationServerPort>3000</HmiCommunicationServerPort>
     <HmiInitial>1.10.1336.372</HmiInitial>
@@ -83,6 +83,15 @@
   <Target Name="ReBuild" DependsOnTargets="Clean; Build" />
   <Target Name="Clean" DependsOnTargets="BaseClean" />
   <ItemGroup>
+    <Content Include="Images\CW1.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\CW2.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\FDC.svg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\MPC_Logo.svg">
       <SubType>Content</SubType>
     </Content>
@@ -92,7 +101,13 @@
     <Content Include="Pages\C_MainPage.content">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Pages\DiscRoll\C_Trial_DiscRoll_CW1.content">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Pages\DiscRoll\C_CoolingParameters_FDC.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\DiscRoll\C_Trial_DiscRoll_CW2.content">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Pages\DiscRoll\C_Parameters_DiscRoll_Left.content">
@@ -101,7 +116,25 @@
     <Content Include="Pages\DiscRoll\C_Parameters_DiscRoll_Right.content">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Pages\DiscRoll\GlobalPage\C_DiscRoll.content">
+    <Content Include="Pages\DiscRoll\C_Trial_DiscRoll_Empty.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\DiscRoll\C_Trial_DiscRoll_FDC.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\DiscRoll\C_Trial_DiscRoll_Left.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\DiscRoll\C_Trial_DiscRoll_Right.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\DiscRoll\C_Trial_DiscRoll_RightBeforeStart.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\DiscRoll\GlobalPage\C_DiscRollParameters.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\DiscRoll\GlobalPage\C_DiscRollTrial.content">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Themes\MPC\MPC.theme">

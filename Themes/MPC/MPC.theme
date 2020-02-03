@@ -68,15 +68,12 @@
       "attributes": {},
       "themedResources": {}
     },
-    "txt-SubTitleLabel": {
+    "txt-InputNr": {
       "attributes": {
-        "BackgroundColor": {
-          "color": "rgba(66, 163, 221, 1)"
-        },
         "TextColor": {
-          "color": "rgba(255, 255, 255, 1)"
+          "color": "rgba(13, 34, 193, 1)"
         },
-        "TextFontSize": 22.0
+        "TextFontSize": 20.0
       },
       "themedResources": {}
     },
@@ -89,12 +86,49 @@
       },
       "themedResources": {}
     },
-    "txt-InputNr": {
+    "txt-MeasurementGreen": {
       "attributes": {
-        "TextColor": {
-          "color": "rgba(13, 34, 193, 1)"
+        "TextFontSize": 20.0,
+        "BackgroundColor": {
+          "color": "rgba(249, 243, 243, 1)"
         },
-        "TextFontSize": 20.0
+        "TextColor": {
+          "color": "rgba(22, 129, 52, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "txt-MeasurementOrange": {
+      "attributes": {
+        "TextFontSize": null,
+        "BackgroundColor": null,
+        "TextColor": {
+          "color": "rgba(243, 108, 18, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "txt-MeasurementRed": {
+      "attributes": {
+        "TextFontSize": 25.0,
+        "BackgroundColor": {
+          "color": "rgba(249, 244, 244, 1)"
+        },
+        "TextColor": {
+          "color": "rgba(243, 11, 11, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "txt-SubTitleLabel": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(66, 163, 221, 1)"
+        },
+        "TextColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "TextFontSize": 22.0
       },
       "themedResources": {}
     },
