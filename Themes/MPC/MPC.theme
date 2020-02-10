@@ -73,13 +73,13 @@
         "TextColor": {
           "color": "rgba(13, 34, 193, 1)"
         },
-        "TextFontSize": 20.0
+        "TextFontSize": 25.0
       },
       "themedResources": {}
     },
     "txt-Label": {
       "attributes": {
-        "TextFontSize": 20.0,
+        "TextFontSize": 25.0,
         "TextColor": {
           "color": "rgba(13, 34, 193, 1)"
         }
@@ -88,7 +88,7 @@
     },
     "txt-MeasurementGreen": {
       "attributes": {
-        "TextFontSize": 20.0,
+        "TextFontSize": 25.0,
         "BackgroundColor": {
           "color": "rgba(249, 243, 243, 1)"
         },
@@ -100,8 +100,10 @@
     },
     "txt-MeasurementOrange": {
       "attributes": {
-        "TextFontSize": null,
-        "BackgroundColor": null,
+        "TextFontSize": 25.0,
+        "BackgroundColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
         "TextColor": {
           "color": "rgba(243, 108, 18, 1)"
         }
@@ -120,6 +122,42 @@
       },
       "themedResources": {}
     },
+    "txt-MeasurementYellowBlue": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(66, 163, 221, 1)"
+        },
+        "TextColor": {
+          "color": "rgba(232, 224, 28, 1)"
+        },
+        "TextFontSize": 25.0
+      },
+      "themedResources": {}
+    },
+    "txt-MeasurementYellowBrown": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(107, 62, 5, 1)"
+        },
+        "TextColor": {
+          "color": "rgba(232, 224, 28, 1)"
+        },
+        "TextFontSize": 25.0
+      },
+      "themedResources": {}
+    },
+    "txt-MeasurementYellowPurple": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(158, 56, 173, 1)"
+        },
+        "TextColor": {
+          "color": "rgba(232, 224, 28, 1)"
+        },
+        "TextFontSize": 25.0
+      },
+      "themedResources": {}
+    },
     "txt-SubTitleLabel": {
       "attributes": {
         "BackgroundColor": {
@@ -128,7 +166,7 @@
         "TextColor": {
           "color": "rgba(255, 255, 255, 1)"
         },
-        "TextFontSize": 22.0
+        "TextFontSize": 25.0
       },
       "themedResources": {}
     },

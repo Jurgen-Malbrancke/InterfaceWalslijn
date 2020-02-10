@@ -130,7 +130,7 @@
 </script>
 </div>
 
-<div id="TcHmiTextblock_42" data-tchmi-type="tchmi-textblock" data-tchmi-height="268" data-tchmi-height-unit="px" data-tchmi-left="40" data-tchmi-left-unit="px" data-tchmi-text="TcHmiTextblock_42" data-tchmi-top="78" data-tchmi-top-unit="px" data-tchmi-width="446" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+<div id="TcHmiTextblock_42" data-tchmi-type="tchmi-textblock" data-tchmi-height="268" data-tchmi-height-unit="px" data-tchmi-left="40" data-tchmi-left-unit="px" data-tchmi-text="Initiating start cycle CW2" data-tchmi-top="78" data-tchmi-top-unit="px" data-tchmi-width="446" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
 
 
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
@@ -150,7 +150,7 @@
 </script>
 </div>
 
-<div id="TcHmiTextblock_43" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="40" data-tchmi-left-unit="px" data-tchmi-text="Logging active:" data-tchmi-top="476" data-tchmi-top-unit="px" data-tchmi-width="147" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
+<div id="TcHmiTextblock_43" data-tchmi-type="tchmi-textblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="40" data-tchmi-left-unit="px" data-tchmi-text="Logging active:" data-tchmi-top="476" data-tchmi-top-unit="px" data-tchmi-width="147" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
 
 
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
@@ -224,7 +224,7 @@
 </script>
 </div>
 
-<div id="TcHmiTextblock_44" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="40" data-tchmi-left-unit="px" data-tchmi-text="Current Pass:" data-tchmi-top="622" data-tchmi-top-unit="px" data-tchmi-width="147" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
+<div id="TcHmiTextblock_44" data-tchmi-type="tchmi-textblock" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="40" data-tchmi-left-unit="px" data-tchmi-text="Current Pass:" data-tchmi-top="619" data-tchmi-top-unit="px" data-tchmi-width="147" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
 
 
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">

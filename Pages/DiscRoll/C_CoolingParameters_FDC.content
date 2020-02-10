@@ -1,6 +1,6 @@
 ﻿<div id="C_CoolingParameters_FDC" data-tchmi-type="tchmi-content" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="1216" data-tchmi-height="550">
 
-<div id="TcHmiTextblock_33" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="117" data-tchmi-left-unit="px" data-tchmi-text="Number of banks:" data-tchmi-top="351" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
+<div id="TcHmiTextblock_33" data-tchmi-type="tchmi-textblock" data-tchmi-height="34" data-tchmi-height-unit="px" data-tchmi-left="117" data-tchmi-left-unit="px" data-tchmi-text="Number of banks:" data-tchmi-top="351" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
 
 
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
@@ -10,7 +10,7 @@
 </script>
 </div>
 
-<div id="TcHmiTextblock_34" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="118" data-tchmi-left-unit="px" data-tchmi-text="Speed Pinch Rolls:" data-tchmi-top="112" data-tchmi-top-unit="px" data-tchmi-width="177" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
+<div id="TcHmiTextblock_34" data-tchmi-type="tchmi-textblock" data-tchmi-height="34" data-tchmi-height-unit="px" data-tchmi-left="118" data-tchmi-left-unit="px" data-tchmi-text="Speed Pinch Rolls:" data-tchmi-top="113" data-tchmi-top-unit="px" data-tchmi-width="177" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
 
 
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
@@ -82,7 +82,7 @@
 </script>
 </div>
 
-<div id="TcHmiTextblock_37" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="117" data-tchmi-left-unit="px" data-tchmi-text="Speed Pump:" data-tchmi-top="184" data-tchmi-top-unit="px" data-tchmi-width="177" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
+<div id="TcHmiTextblock_37" data-tchmi-type="tchmi-textblock" data-tchmi-height="34" data-tchmi-height-unit="px" data-tchmi-left="117" data-tchmi-left-unit="px" data-tchmi-text="Speed Pump:" data-tchmi-top="185" data-tchmi-top-unit="px" data-tchmi-width="177" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
 
 
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
@@ -120,22 +120,12 @@
 </script>
 </div>
 
-<div id="TcHmiTextblock_39" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="117" data-tchmi-left-unit="px" data-tchmi-text="Start FDC at pass:" data-tchmi-top="268" data-tchmi-top-unit="px" data-tchmi-width="177" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
+<div id="TcHmiTextblock_39" data-tchmi-type="tchmi-textblock" data-tchmi-height="34" data-tchmi-height-unit="px" data-tchmi-left="117" data-tchmi-left-unit="px" data-tchmi-text="Start FDC at pass:" data-tchmi-top="268" data-tchmi-top-unit="px" data-tchmi-width="177" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
 
 
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
 [
   "txt-Label"
-]
-</script>
-</div>
-
-<div id="TcHmiTextblock_40" data-tchmi-type="tchmi-textblock" data-tchmi-height="24" data-tchmi-height-unit="px" data-tchmi-left="350" data-tchmi-left-unit="px" data-tchmi-text="tr/min" data-tchmi-top="295" data-tchmi-top-unit="px" data-tchmi-width="47" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="6">
-
-
-<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
-[
-  "txt-Unit"
 ]
 </script>
 </div>
@@ -164,6 +154,28 @@
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
 [
   "btn-Interface"
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btn_TestParameters.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%Region_DiscRoll_Right::TargetContent%/ctrl%",
+        "valueType": "tchmi:framework#/definitions/ContentPath",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/ContentPath",
+          "value": "Pages/DiscRoll/C_Parameters_DiscRoll_TestFDC.content"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
 ]
 </script>
 </div>

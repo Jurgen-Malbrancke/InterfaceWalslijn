@@ -1,0 +1,67 @@
+﻿{
+  "parameters": [
+    {
+      "name": "data-tchmi-value",
+      "displayName": "Value",
+      "visible": true,
+      "type": "tchmi:general#/definitions/DOUBLE",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "Value",
+      "propertySetterName": "setValue",
+      "propertyGetterName": "getValue"
+    },
+    {
+      "name": "data-tchmi-step",
+      "displayName": "Step",
+      "visible": true,
+      "type": "tchmi:general#/definitions/DOUBLE",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "Step",
+      "propertySetterName": "setStep",
+      "propertyGetterName": "getStep"
+    },
+    {
+      "name": "data-tchmi-max",
+      "displayName": "Max",
+      "visible": true,
+      "type": "tchmi:general#/definitions/DOUBLE",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "Max",
+      "propertySetterName": "setMax",
+      "propertyGetterName": "getMax"
+    },
+    {
+      "name": "data-tchmi-min",
+      "displayName": "Min",
+      "visible": true,
+      "type": "tchmi:general#/definitions/DOUBLE",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "Min",
+      "propertySetterName": "setMin",
+      "propertyGetterName": "getMin"
+    }
+  ],
+  "virtualRights": [],
+  "$schema": "C:/TwinCAT/Functions/TE2000-HMI-Engineering/Infrastructure/TcHmiFramework/Latest/Schema/UserControlConfig.Schema.json",
+  "description": ""
+}

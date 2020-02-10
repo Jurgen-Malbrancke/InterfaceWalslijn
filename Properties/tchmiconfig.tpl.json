@@ -50,7 +50,14 @@
       "type": "Stylesheet"
     }
   ],
-  "userControls": [],
+  "userControls": [
+    {
+      "url": "UserControls/UC_TellerBox.usercontrol"
+    },
+    {
+      "url": "UserControls/UC_TellerCounter.usercontrol"
+    }
+  ],
   "content": [
     {
       "url": "Pages/ContRoll/C_ContRoll.content",
@@ -74,6 +81,10 @@
     },
     {
       "url": "Pages/DiscRoll/C_Parameters_DiscRoll_Right.content",
+      "preload": false
+    },
+    {
+      "url": "Pages/DiscRoll/C_Parameters_DiscRoll_TestFDC.content",
       "preload": false
     },
     {

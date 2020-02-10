@@ -1,0 +1,132 @@
+﻿<div id="UC_TellerBox" data-tchmi-type="tchmi-user-control" 
+     data-tchmi-top="0" data-tchmi-left="0" 
+     data-tchmi-width="100" data-tchmi-height="100" data-tchmi-width-unit="%" data-tchmi-height-unit="%"
+     data-tchmi-creator-viewport-width="130" data-tchmi-creator-viewport-height="60">
+
+<div id="TcHmiTextbox_1" data-tchmi-type="tchmi-textbox" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left-unit="px" data-tchmi-text="%pp%value%/pp%" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="77" data-tchmi-width-unit="%" data-tchmi-right="0" data-tchmi-text-horizontal-alignment="Left">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "input-numbers-only"
+]
+</script>
+</div>
+
+<div id="TcHmiImage" data-tchmi-type="tchmi-image" data-tchmi-height="50" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-src="Images/Controls/icons_next_pressed.svg" data-tchmi-top-unit="%" data-tchmi-width="23" data-tchmi-width-unit="%" data-tchmi-bottom="0">
+
+
+<script data-tchmi-target-attribute="data-tchmi-transform" type="application/json">
+[
+  {
+    "transformType": "Rotate",
+    "angle": 90.0,
+    "angleUnit": "deg"
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiImage.onPressed",
+    "actions": [
+      {
+        "objectType": "Function",
+        "active": false,
+        "fn": "Decrement",
+        "fnParams": [
+          {
+            "objectType": "Symbol",
+            "symbolExpression": "%pp%value%/pp%"
+          },
+          {
+            "objectType": "Symbol",
+            "symbolExpression": "%pp%Min%/pp%"
+          },
+          {
+            "objectType": "Symbol",
+            "symbolExpression": "%pp%Step%/pp%"
+          }
+        ],
+        "asyncWait": true
+      },
+      {
+        "objectType": "Function",
+        "active": true,
+        "fn": "Decrement",
+        "fnParams": [
+          {
+            "objectType": "Symbol",
+            "symbolExpression": "%pp%value%/pp%"
+          },
+          {
+            "objectType": "Symbol",
+            "symbolExpression": "%pp%Min%/pp%"
+          },
+          {
+            "objectType": "Symbol",
+            "symbolExpression": "%pp%Step%/pp%"
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+<div id="TcHmiImage_1" data-tchmi-type="tchmi-image" data-tchmi-height="50" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-src="Images/Controls/icons_previous_pressed.svg" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="23" data-tchmi-width-unit="%">
+
+
+<script data-tchmi-target-attribute="data-tchmi-transform" type="application/json">
+[
+  {
+    "transformType": "Rotate",
+    "angle": 90.0,
+    "angleUnit": "deg"
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiImage_1.onPressed",
+    "actions": [
+      {
+        "objectType": "Function",
+        "active": true,
+        "fn": "Increment",
+        "fnParams": [
+          {
+            "objectType": "Symbol",
+            "symbolExpression": "%pp%value%/pp%"
+          },
+          {
+            "objectType": "Symbol",
+            "symbolExpression": "%pp%Max%/pp%"
+          },
+          {
+            "objectType": "Symbol",
+            "symbolExpression": "%pp%Step%/pp%"
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+</div>

@@ -1,4 +1,21 @@
 ﻿{
-	"$schema": "http://json-schema.org/draft-04/schema#",
-	"definitions": { }
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "UserControls_UC_TellerBox": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "tchmi-user-control-host",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControls\\UC_TellerBox.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/UserControls_UC_TellerBox"
+    },
+    "UserControls_UC_TellerCounter": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "tchmi-user-control-host",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControls\\UC_TellerCounter.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/UserControls_UC_TellerCounter"
+    }
+  }
 }

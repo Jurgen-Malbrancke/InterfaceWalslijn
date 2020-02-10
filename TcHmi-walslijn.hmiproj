@@ -11,7 +11,7 @@
     <HmiVerboseLevel>2</HmiVerboseLevel>
     <HmiVersion>1.0.0.0</HmiVersion>
     <Name>TcHmi-walslijn</Name>
-    <HmiCommunicationRouterPort>10106</HmiCommunicationRouterPort>
+    <HmiCommunicationRouterPort>10107</HmiCommunicationRouterPort>
     <HmiFrameworkVersion>Latest</HmiFrameworkVersion>
     <HmiCommunicationServerPort>3000</HmiCommunicationServerPort>
     <HmiInitial>1.10.1336.372</HmiInitial>
@@ -83,6 +83,12 @@
   <Target Name="ReBuild" DependsOnTargets="Clean; Build" />
   <Target Name="Clean" DependsOnTargets="BaseClean" />
   <ItemGroup>
+    <Content Include="Images\Controls\icons_next_pressed.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Controls\icons_previous_pressed.svg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\CW1.svg">
       <SubType>Content</SubType>
     </Content>
@@ -92,6 +98,9 @@
     <Content Include="Images\FDC.svg">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Images\FDC_Full.svg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\MPC_Logo.svg">
       <SubType>Content</SubType>
     </Content>
@@ -99,6 +108,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Pages\C_MainPage.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\DiscRoll\C_Parameters_DiscRoll_TestFDC.content">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Pages\DiscRoll\C_Trial_DiscRoll_CW1.content">
@@ -143,7 +155,21 @@
     <Content Include="Themes\MPC\Style.css">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="UserControls\UC_TellerBox.usercontrol">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UserControls\UC_TellerBox.usercontrol.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UserControls\UC_TellerBox.usercontrol.json" />
+    <Content Include="UserControls\UC_TellerCounter.usercontrol">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UserControls\UC_TellerCounter.usercontrol.json">
+      <SubType>Content</SubType>
+    </Content>
     <Folder Include=".hmipkgs" />
+    <Folder Include="Images\Controls" />
     <Folder Include="Libraries" />
     <Folder Include="Images" />
     <Folder Include="Images\Manifest" />
@@ -151,6 +177,7 @@
     <Folder Include="Imports\Images" />
     <Folder Include="Imports\Videos" />
     <Folder Include="Localization" />
+    <Folder Include="UserControls" />
     <Folder Include="Pages" />
     <Folder Include="Pages\DiscRoll" />
     <Folder Include="Pages\ContRoll" />
