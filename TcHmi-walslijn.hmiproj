@@ -161,7 +161,6 @@
     <Content Include="UserControls\UC_TellerBox.usercontrol.json">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="UserControls\UC_TellerBox.usercontrol.json" />
     <Content Include="UserControls\UC_TellerCounter.usercontrol">
       <SubType>Content</SubType>
     </Content>
