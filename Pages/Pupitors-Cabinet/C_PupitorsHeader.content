@@ -1,0 +1,23 @@
+﻿<div id="C_PupitorsHeader" data-tchmi-type="tchmi-content" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="300" data-tchmi-height="90">
+
+<div id="TcHmiImage_25" data-tchmi-type="tchmi-image" data-tchmi-height="80" data-tchmi-height-unit="px" data-tchmi-left="90" data-tchmi-left-unit="px" data-tchmi-src="Imports/Images/warning_rot_pressed.svg" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="80" data-tchmi-width-unit="px">
+
+</div>
+
+<div id="TcHmiImage_26" data-tchmi-type="tchmi-image" data-tchmi-height="80" data-tchmi-height-unit="px" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-src="Imports/Images/message_pressed.svg" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="80" data-tchmi-width-unit="px">
+
+</div>
+
+<div id="TcHmiImage_29" data-tchmi-type="tchmi-image" data-tchmi-height="80" data-tchmi-height-unit="px" data-tchmi-left="180" data-tchmi-left-unit="px" data-tchmi-src="Imports/Images/automatic_pressed.svg" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="80" data-tchmi-width-unit="px">
+
+</div>
+
+<div id="TcHmiImage_30" data-tchmi-type="tchmi-image" data-tchmi-height="80" data-tchmi-height-unit="px" data-tchmi-left="190" data-tchmi-left-unit="px" data-tchmi-src="Imports/Images/user_pressed.svg" data-tchmi-top="20" data-tchmi-top-unit="px" data-tchmi-width="80" data-tchmi-width-unit="px">
+
+</div>
+
+<div id="TcHmiImage_32" data-tchmi-type="tchmi-image" data-tchmi-height="80" data-tchmi-height-unit="px" data-tchmi-left="90" data-tchmi-left-unit="px" data-tchmi-src="Imports/Images/warning_gelb_pressed.svg" data-tchmi-top="20" data-tchmi-top-unit="px" data-tchmi-width="80" data-tchmi-width-unit="px">
+
+</div>
+
+</div>

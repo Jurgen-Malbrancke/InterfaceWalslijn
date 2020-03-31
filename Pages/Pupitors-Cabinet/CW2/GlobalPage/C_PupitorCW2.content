@@ -1,0 +1,77 @@
+﻿<div id="C_PupitorCW2" data-tchmi-type="tchmi-content" data-tchmi-top="0" data-tchmi-width="1280" data-tchmi-height="800" data-tchmi-creator-viewport-width="2560" data-tchmi-creator-viewport-height="1440" data-tchmi-left-unit="px" data-tchmi-top-unit="px" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px" data-tchmi-width-unit="px" data-tchmi-height-unit="px" data-tchmi-zindex="6">
+
+<div id="txt_Title_12" data-tchmi-type="tchmi-textblock" data-tchmi-height="100" data-tchmi-height-unit="px" data-tchmi-left="228" data-tchmi-left-unit="px" data-tchmi-text="CW2" data-tchmi-top="-20" data-tchmi-top-unit="px" data-tchmi-width="203" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="80" data-tchmi-zindex="4" data-tchmi-right-unit="px">
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(255, 255, 255, 1)"
+}
+</script>
+</div>
+
+<div id="Img_Logo_13" data-tchmi-type="tchmi-image" data-tchmi-height="80" data-tchmi-height-unit="px" data-tchmi-left="52" data-tchmi-left-unit="px"  data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="160" data-tchmi-width-unit="px"  data-tchmi-src="Images/MPC_Logo.svg" data-tchmi-zindex="4" data-tchmi-right-unit="px">
+
+</div>
+
+<div id="TcHmiRegion_3" data-tchmi-type="tchmi-region" data-tchmi-height="90" data-tchmi-height-unit="px" data-tchmi-left-unit="px" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="300" data-tchmi-width-unit="px" data-tchmi-right="17" data-tchmi-target-content="Pages/Pupitors-Cabinet/C_PupitorsHeader.content">
+
+</div>
+
+<div id="TcHmiImage_28" data-tchmi-type="tchmi-image" data-tchmi-height="80" data-tchmi-height-unit="px" data-tchmi-left="590" data-tchmi-left-unit="px" data-tchmi-src="Imports/Images/calibrate_pressed.svg" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="80" data-tchmi-width-unit="px">
+
+</div>
+
+<div id="TcHmiImage_31" data-tchmi-type="tchmi-image" data-tchmi-height="80" data-tchmi-height-unit="px" data-tchmi-left="680" data-tchmi-left-unit="px" data-tchmi-src="Imports/Images/toolbox_pressed.svg" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="80" data-tchmi-width-unit="px">
+
+</div>
+
+<div id="TcHmiImage_27" data-tchmi-type="tchmi-image" data-tchmi-height="80" data-tchmi-height-unit="px" data-tchmi-left="500" data-tchmi-left-unit="px" data-tchmi-src="Imports/Images/startpage_pressed.svg" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="80" data-tchmi-width-unit="px">
+
+</div>
+
+<div id="TcHmiRegion_4" data-tchmi-type="tchmi-region" data-tchmi-height="700" data-tchmi-height-unit="px" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top-unit="px" data-tchmi-width="1280" data-tchmi-width-unit="px" data-tchmi-bottom="0">
+
+</div>
+
+<div id="btn_Back2Main_12" data-tchmi-type="tchmi-button" data-tchmi-height="80" data-tchmi-height-unit="px" data-tchmi-left-unit="px" data-tchmi-text="End" data-tchmi-top-unit="px" data-tchmi-width="189" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-right="14" data-tchmi-bottom="14" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px" data-tchmi-zindex="4">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Interface"
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(243, 9, 9, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btn_Back2Main_12.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%Region_Main::TargetContent%/ctrl%",
+        "valueType": "tchmi:framework#/definitions/ContentPath",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/ContentPath",
+          "value": "Pages/C_MainPage.content"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+</div>

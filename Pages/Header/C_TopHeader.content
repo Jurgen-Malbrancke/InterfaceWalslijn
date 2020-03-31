@@ -1,0 +1,11 @@
+﻿<div id="C_TopHeader" data-tchmi-type="tchmi-content" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="1265" data-tchmi-height="150">
+
+<div id="TcHmiImage_23" data-tchmi-type="tchmi-image" data-tchmi-height="80" data-tchmi-height-unit="px" data-tchmi-left="160" data-tchmi-left-unit="px" data-tchmi-src="Imports/Images/warning_rot_pressed.svg" data-tchmi-top="20" data-tchmi-top-unit="px" data-tchmi-width="80" data-tchmi-width-unit="px">
+
+</div>
+
+<div id="TcHmiImage_24" data-tchmi-type="tchmi-image" data-tchmi-height="80" data-tchmi-height-unit="px" data-tchmi-left="33" data-tchmi-left-unit="px" data-tchmi-src="Imports/Images/message_pressed.svg" data-tchmi-top="20" data-tchmi-top-unit="px" data-tchmi-width="80" data-tchmi-width-unit="px">
+
+</div>
+
+</div>

@@ -1,6 +1,6 @@
-﻿<div id="C_MainPage" data-tchmi-type="tchmi-content" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="100" data-tchmi-height="100" data-tchmi-creator-viewport-width="2560" data-tchmi-creator-viewport-height="1440" data-tchmi-width-unit="%" data-tchmi-height-unit="%" data-tchmi-left-unit="px" data-tchmi-top-unit="px" data-tchmi-background-image="">
+﻿<div id="C_MainPage" data-tchmi-type="tchmi-content" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="100" data-tchmi-height="100" data-tchmi-creator-viewport-width="2560" data-tchmi-creator-viewport-height="1440" data-tchmi-width-unit="%" data-tchmi-height-unit="%" data-tchmi-left-unit="px" data-tchmi-top-unit="px" data-tchmi-background-image="" data-tchmi-zindex="7">
 
-<div id="btn_DiscRoll" data-tchmi-type="tchmi-button" data-tchmi-height="76" data-tchmi-height-unit="px" data-tchmi-left="242" data-tchmi-left-unit="px" data-tchmi-text="Discontinuous Rolling" data-tchmi-top="310" data-tchmi-top-unit="px" data-tchmi-width="250" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+<div id="btn_DiscHotRolling" data-tchmi-type="tchmi-button" data-tchmi-height="76" data-tchmi-height-unit="px" data-tchmi-left="304" data-tchmi-left-unit="px" data-tchmi-text="Hot Rolling" data-tchmi-top="562" data-tchmi-top-unit="px" data-tchmi-width="250" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
 
 
 
@@ -8,7 +8,7 @@
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "btn_DiscRoll.onPressed",
+    "event": "btn_DiscHotRolling.onPressed",
     "actions": [
       {
         "objectType": "WriteToSymbol",
@@ -26,13 +26,19 @@
   }
 ]
 </script>
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Interface"
+]
+</script>
 </div>
 
-<div id="Img_Logo" data-tchmi-type="tchmi-image" data-tchmi-height="150" data-tchmi-height-unit="px" data-tchmi-left="0" data-tchmi-left-unit="px"  data-tchmi-top="17" data-tchmi-top-unit="px" data-tchmi-width="300" data-tchmi-width-unit="px" data-tchmi-background-image="" data-tchmi-src="Images/MPC_Logo.svg">
+<div id="Img_Logo" data-tchmi-type="tchmi-image" data-tchmi-height="150" data-tchmi-height-unit="px" data-tchmi-left="0" data-tchmi-left-unit="px"  data-tchmi-top="17" data-tchmi-top-unit="px" data-tchmi-width="300" data-tchmi-width-unit="px" data-tchmi-background-image="" data-tchmi-src="Images/MPC_Logo.svg" data-tchmi-zindex="7">
 
 </div>
 
-<div id="txt_Title" data-tchmi-type="tchmi-textblock" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="344" data-tchmi-left-unit="px" data-tchmi-text="Rolling Platform" data-tchmi-top="34" data-tchmi-top-unit="px" data-tchmi-width="784" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="80">
+<div id="txt_Title" data-tchmi-type="tchmi-textblock" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="344" data-tchmi-left-unit="px" data-tchmi-text="Rolling Platform" data-tchmi-top="34" data-tchmi-top-unit="px" data-tchmi-width="784" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="80" data-tchmi-zindex="7">
 
 
 
@@ -44,13 +50,13 @@
 </script>
 </div>
 
-<div id="btn_ContRoll" data-tchmi-type="tchmi-button" data-tchmi-height="76" data-tchmi-height-unit="px" data-tchmi-left="242" data-tchmi-left-unit="px" data-tchmi-text="Continuous Rolling" data-tchmi-top="423" data-tchmi-top-unit="px" data-tchmi-width="250" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+<div id="btn_ContHotRoll" data-tchmi-type="tchmi-button" data-tchmi-height="76" data-tchmi-height-unit="px" data-tchmi-left="460" data-tchmi-left-unit="px" data-tchmi-text="Hot Rolling" data-tchmi-top="1030" data-tchmi-top-unit="px" data-tchmi-width="250" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
 
 
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "btn_ContRoll.onPressed",
+    "event": "btn_ContHotRoll.onPressed",
     "actions": [
       {
         "objectType": "WriteToSymbol",
@@ -60,12 +66,641 @@
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:framework#/definitions/ContentPath",
-          "value": "Pages/ContRoll/C_ContRoll.content"
+          "value": "Pages/ContRoll/GlobalPage/C_ContRoll.content"
         },
         "asyncWait": true
       }
     ]
   }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Interface"
+]
+</script>
+</div>
+
+<div id="btn_DiscColdRolling" data-tchmi-type="tchmi-button" data-tchmi-height="76" data-tchmi-height-unit="px" data-tchmi-left="618" data-tchmi-left-unit="px" data-tchmi-text="Cold Rolling" data-tchmi-top="562" data-tchmi-top-unit="px" data-tchmi-width="250" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btn_DiscColdRolling.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%Region_Main::TargetContent%/ctrl%",
+        "valueType": "tchmi:framework#/definitions/ContentPath",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/ContentPath",
+          "value": "Pages/DiscRollCold/GlobalPage/C_DiscRollCold.content"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Interface"
+]
+</script>
+</div>
+
+<div id="btn_DiscFDC" data-tchmi-type="tchmi-button" data-tchmi-height="76" data-tchmi-height-unit="px" data-tchmi-left="941" data-tchmi-left-unit="px" data-tchmi-text="FDC Trials" data-tchmi-top="562" data-tchmi-top-unit="px" data-tchmi-width="250" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btn_DiscFDC.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%Region_Main::TargetContent%/ctrl%",
+        "valueType": "tchmi:framework#/definitions/ContentPath",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/ContentPath",
+          "value": "Pages/FDCTrial/GlobalPage/C_FDCTrial2.content"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Interface"
+]
+</script>
+</div>
+
+<div id="lblParametersSample_2" data-tchmi-type="tchmi-textblock" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="235" data-tchmi-left-unit="px" data-tchmi-text="Discontinuous:" data-tchmi-top="425" data-tchmi-top-unit="px" data-tchmi-width="318" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="13" data-tchmi-right-unit="px">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-SubTitleLabel"
+]
+</script>
+</div>
+
+<div id="lblParametersSample_3" data-tchmi-type="tchmi-textblock" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="235" data-tchmi-left-unit="px" data-tchmi-text="Continuous:" data-tchmi-top="903" data-tchmi-top-unit="px" data-tchmi-width="318" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="4" data-tchmi-right-unit="px">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-SubTitleLabel"
+]
+</script>
+</div>
+
+<div id="btn_ContColdRoll" data-tchmi-type="tchmi-button" data-tchmi-height="76" data-tchmi-height-unit="px" data-tchmi-left="772" data-tchmi-left-unit="px" data-tchmi-text="Cold Rolling" data-tchmi-top="1030" data-tchmi-top-unit="px" data-tchmi-width="250" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btn_ContColdRoll.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%Region_Main::TargetContent%/ctrl%",
+        "valueType": "tchmi:framework#/definitions/ContentPath",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/ContentPath",
+          "value": "Pages/ContRoll/GlobalPage/C_ContRoll.content"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Interface"
+]
+</script>
+</div>
+
+<div id="lblParametersSample_4" data-tchmi-type="tchmi-textblock" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="1509" data-tchmi-left-unit="px" data-tchmi-text="Configuration &amp; testing:" data-tchmi-top="305" data-tchmi-top-unit="px" data-tchmi-width="318" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="13" data-tchmi-right-unit="px">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-SubTitleLabel"
+]
+</script>
+</div>
+
+<div id="TcHmiRectangle_12" data-tchmi-type="tchmi-rectangle" data-tchmi-height="857" data-tchmi-height-unit="px" data-tchmi-left="1558" data-tchmi-left-unit="px" data-tchmi-top="393" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-zindex="6" data-tchmi-right-unit="px" data-tchmi-width="844">
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 5,
+  "right": 5,
+  "top": 5,
+  "bottom": 5,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(134, 135, 178, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "None"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+{
+  "color": "None"
+}
+</script>
+</div>
+
+<div id="btn_AIAOtest" data-tchmi-type="tchmi-button" data-tchmi-height="76" data-tchmi-height-unit="px" data-tchmi-left="1660" data-tchmi-left-unit="px" data-tchmi-text="AI/AO testing" data-tchmi-top="465" data-tchmi-top-unit="px" data-tchmi-width="250" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btn_AIAOtest.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%Region_Main::TargetContent%/ctrl%",
+        "valueType": "tchmi:framework#/definitions/ContentPath",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/ContentPath",
+          "value": "Pages/AIAO/GlobalPage/C_AIAO.content"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Interface"
+]
+</script>
+</div>
+
+<div id="btn_ErrorPages" data-tchmi-type="tchmi-button" data-tchmi-height="76" data-tchmi-height-unit="px" data-tchmi-left="2014" data-tchmi-left-unit="px" data-tchmi-text="Error pages" data-tchmi-top="471" data-tchmi-top-unit="px" data-tchmi-width="250" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btn_ErrorPages.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%Region_Main::TargetContent%/ctrl%",
+        "valueType": "tchmi:framework#/definitions/ContentPath",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/ContentPath",
+          "value": "Pages/ErrorPages/GlobalPage/C_ErrorPage.content"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Interface"
+]
+</script>
+</div>
+
+<div id="btn_PepitorCW2" data-tchmi-type="tchmi-button" data-tchmi-height="76" data-tchmi-height-unit="px" data-tchmi-left="1672" data-tchmi-left-unit="px" data-tchmi-text="Pupitor view CW2" data-tchmi-top="766" data-tchmi-top-unit="px" data-tchmi-width="250" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btn_PepitorCW2.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%Region_Main::TargetContent%/ctrl%",
+        "valueType": "tchmi:framework#/definitions/ContentPath",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/ContentPath",
+          "value": "Pages/Pupitors-Cabinet/CW2/GlobalPage/C_PupitorCW2.content"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Interface"
+]
+</script>
+</div>
+
+<div id="btn_PepitorCW1" data-tchmi-type="tchmi-button" data-tchmi-height="76" data-tchmi-height-unit="px" data-tchmi-left="2019" data-tchmi-left-unit="px" data-tchmi-text="Pupitor view CW1" data-tchmi-top="765" data-tchmi-top-unit="px" data-tchmi-width="250" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btn_PepitorCW1.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%Region_Main::TargetContent%/ctrl%",
+        "valueType": "tchmi:framework#/definitions/ContentPath",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/ContentPath",
+          "value": "Pages/Pupitors-Cabinet/CW1/GlobalPage/C_PupitorCW1.content"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Interface"
+]
+</script>
+</div>
+
+<div id="btn_Cabinet" data-tchmi-type="tchmi-button" data-tchmi-height="76" data-tchmi-height-unit="px" data-tchmi-left="1854" data-tchmi-left-unit="px" data-tchmi-text="View cabinet" data-tchmi-top="887" data-tchmi-top-unit="px" data-tchmi-width="250" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btn_Cabinet.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%Region_Main::TargetContent%/ctrl%",
+        "valueType": "tchmi:framework#/definitions/ContentPath",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/ContentPath",
+          "value": "Pages/Pupitors-Cabinet/Cabinet/GlobalPage/C_Cabinet.content"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Interface"
+]
+</script>
+</div>
+
+<div id="TcHmiTextblock_118" data-tchmi-type="tchmi-textblock" data-tchmi-height="19" data-tchmi-height-unit="px" data-tchmi-left="358" data-tchmi-left-unit="px"                                        data-tchmi-top="729" data-tchmi-top-unit="px" data-tchmi-width="750" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="9" data-tchmi-text=" " " " " " " " " " " " " " " " " ">
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Action"
+]
+</script>
+</div>
+
+<div id="TcHmiTextblock_119" data-tchmi-type="tchmi-textblock" data-tchmi-height="19" data-tchmi-height-unit="px" data-tchmi-left="359" data-tchmi-left-unit="px"                                        data-tchmi-top="1186" data-tchmi-top-unit="px" data-tchmi-width="750" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="9"      data-tchmi-text=" " " " " " " " " " " " " " ">
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Action"
+]
+</script>
+</div>
+
+<div id="TcHmiTextblock_120" data-tchmi-type="tchmi-textblock" data-tchmi-height="19" data-tchmi-height-unit="px" data-tchmi-left="1604" data-tchmi-left-unit="px"                                        data-tchmi-top="1205" data-tchmi-top-unit="px" data-tchmi-width="750" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="9"          data-tchmi-text=" " " " " " " " " " " " " " " " " ">
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Action"
+]
+</script>
+</div>
+
+<div id="btn_Settings" data-tchmi-type="tchmi-button" data-tchmi-height="76" data-tchmi-height-unit="px" data-tchmi-left="1853" data-tchmi-left-unit="px" data-tchmi-text="Settings" data-tchmi-top="1030" data-tchmi-top-unit="px" data-tchmi-width="250" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btn_Settings.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%Region_Main::TargetContent%/ctrl%",
+        "valueType": "tchmi:framework#/definitions/ContentPath",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/ContentPath",
+          "value": "Pages/Settings/GlobalPage/C_Settings.content"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Interface"
+]
+</script>
+</div>
+
+<div id="TcHmiRectangle_13" data-tchmi-type="tchmi-rectangle" data-tchmi-height="390" data-tchmi-height-unit="px" data-tchmi-left="195" data-tchmi-left-unit="px" data-tchmi-top="393" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-zindex="2" data-tchmi-right-unit="px" data-tchmi-width="1124">
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 5,
+  "right": 5,
+  "top": 5,
+  "bottom": 5,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(134, 135, 178, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "None"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+{
+  "color": "None"
+}
+</script>
+</div>
+
+<div id="lblParametersSample_5" data-tchmi-type="tchmi-textblock" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="145" data-tchmi-left-unit="px" data-tchmi-text="Laboratory Trials:" data-tchmi-top="305" data-tchmi-top-unit="px" data-tchmi-width="318" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center" data-tchmi-zindex="13" data-tchmi-right-unit="px">
+
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "txt-SubTitleLabel"
+]
+</script>
+</div>
+
+<div id="TcHmiRectangle_14" data-tchmi-type="tchmi-rectangle" data-tchmi-height="1075" data-tchmi-height-unit="px" data-tchmi-left="1463" data-tchmi-left-unit="px" data-tchmi-top="273" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-zindex="0" data-tchmi-right-unit="px" data-tchmi-width="1000">
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 5,
+  "right": 5,
+  "top": 5,
+  "bottom": 5,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(169, 170, 190, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "None"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+{
+  "color": "None"
+}
+</script>
+</div>
+
+<div id="TcHmiRectangle_15" data-tchmi-type="tchmi-rectangle" data-tchmi-height="1075" data-tchmi-height-unit="px" data-tchmi-left="98" data-tchmi-left-unit="px" data-tchmi-top="273" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-zindex="1" data-tchmi-right-unit="px" data-tchmi-width="1287">
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 5,
+  "right": 5,
+  "top": 5,
+  "bottom": 5,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(169, 170, 190, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "None"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+{
+  "color": "None"
+}
+</script>
+</div>
+
+<div id="TcHmiRectangle_16" data-tchmi-type="tchmi-rectangle" data-tchmi-height="390" data-tchmi-height-unit="px" data-tchmi-left="195" data-tchmi-left-unit="px" data-tchmi-top="865" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-zindex="2" data-tchmi-right-unit="px" data-tchmi-width="1124">
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 5,
+  "right": 5,
+  "top": 5,
+  "bottom": 5,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(134, 135, 178, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "None"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+{
+  "color": "None"
+}
+</script>
+</div>
+
+<div id="btn_VerificationForces" data-tchmi-type="tchmi-button" data-tchmi-height="76" data-tchmi-height-unit="px" data-tchmi-left="1662" data-tchmi-left-unit="px" data-tchmi-text="Force Verification" data-tchmi-top="611" data-tchmi-top-unit="px" data-tchmi-width="250" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btn_VerificationForces.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%Region_Main::TargetContent%/ctrl%",
+        "valueType": "tchmi:framework#/definitions/ContentPath",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/ContentPath",
+          "value": "Pages/Verifications/Force/C_ForceVerification.content"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Interface"
+]
+</script>
+</div>
+
+<div id="btn_VerificationTorques" data-tchmi-type="tchmi-button" data-tchmi-height="76" data-tchmi-height-unit="px" data-tchmi-left="2017" data-tchmi-left-unit="px" data-tchmi-text="Torque Verification" data-tchmi-top="611" data-tchmi-top-unit="px" data-tchmi-width="250" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btn_VerificationTorques.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%Region_Main::TargetContent%/ctrl%",
+        "valueType": "tchmi:framework#/definitions/ContentPath",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/ContentPath",
+          "value": "Pages/Verifications/Torque/C_TorqueVerification.content"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+[
+  "btn-Interface"
 ]
 </script>
 </div>

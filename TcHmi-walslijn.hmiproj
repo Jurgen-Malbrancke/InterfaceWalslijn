@@ -11,7 +11,7 @@
     <HmiVerboseLevel>2</HmiVerboseLevel>
     <HmiVersion>1.0.0.0</HmiVersion>
     <Name>TcHmi-walslijn</Name>
-    <HmiCommunicationRouterPort>10107</HmiCommunicationRouterPort>
+    <HmiCommunicationRouterPort>10109</HmiCommunicationRouterPort>
     <HmiFrameworkVersion>Latest</HmiFrameworkVersion>
     <HmiCommunicationServerPort>3000</HmiCommunicationServerPort>
     <HmiInitial>1.10.1336.372</HmiInitial>
@@ -83,6 +83,15 @@
   <Target Name="ReBuild" DependsOnTargets="Clean; Build" />
   <Target Name="Clean" DependsOnTargets="BaseClean" />
   <ItemGroup>
+    <Content Include="Images\CoilOven.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\ColdStrip.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\ContRollFullLine.svg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\Controls\icons_next_pressed.svg">
       <SubType>Content</SubType>
     </Content>
@@ -98,16 +107,82 @@
     <Content Include="Images\FDC.svg">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Images\FDC_ContW.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\FDC_ContWGrey.svg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\FDC_Full.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\HotStrip_thick.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\HotStrip_thin.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Inductor.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\InductorCont.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Looper.svg">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Images\MPC_Logo.svg">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Pages\ContRoll\C_ContRoll.content">
+    <Content Include="Images\Opwikkelhaspel.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Pyrometer.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\automatic_pressed.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\calibrate_inactive.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\calibrate_pressed.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\message_pressed.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\startpage_pressed.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\toolbox_pressed.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\user_pressed.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\warning_active.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\warning_gelb_pressed.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\warning_pressed.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\warning_rot_pressed.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\AIAO\GlobalPage\C_AIAO.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\ContRoll\GlobalPage\C_ContRoll.content">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Pages\C_MainPage.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\DiscRollCold\GlobalPage\C_DiscRollCold.content">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Pages\DiscRoll\C_Parameters_DiscRoll_TestFDC.content">
@@ -149,6 +224,39 @@
     <Content Include="Pages\DiscRoll\GlobalPage\C_DiscRollTrial.content">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Pages\ErrorPages\GlobalPage\C_ErrorPage.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\FDCTrial\C_LoggingParameters.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\FDCTrial\GlobalPage\C_FDCTrial.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\Header\C_TopHeader.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\Pupitors-Cabinet\Cabinet\GlobalPage\C_Cabinet.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\Pupitors-Cabinet\CW1\GlobalPage\C_PupitorCW1.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\Pupitors-Cabinet\CW2\GlobalPage\C_PupitorCW2.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\Pupitors-Cabinet\C_PupitorsHeader.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\Settings\GlobalPage\C_Settings.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\Verifications\Force\C_ForceVerification.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\Verifications\Torque\C_TorqueVerification.content">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Themes\MPC\MPC.theme">
       <SubType>Content</SubType>
     </Content>
@@ -176,6 +284,28 @@
     <Folder Include="Imports\Images" />
     <Folder Include="Imports\Videos" />
     <Folder Include="Localization" />
+    <Folder Include="Pages\AIAO\GlobalPage" />
+    <Folder Include="Pages\ContRoll\GlobalPage" />
+    <Folder Include="Pages\DiscRollCold\GlobalPage" />
+    <Folder Include="Pages\ErrorPages\GlobalPage" />
+    <Folder Include="Pages\FDCTrial" />
+    <Folder Include="Pages\DiscRollCold" />
+    <Folder Include="Pages\FDCTrial\GlobalPage" />
+    <Folder Include="Pages\ErrorPages" />
+    <Folder Include="Pages\AIAO" />
+    <Folder Include="Pages\Header" />
+    <Folder Include="Pages\Verifications" />
+    <Folder Include="Pages\Pupitors-Cabinet\Cabinet\GlobalPage" />
+    <Folder Include="Pages\Pupitors-Cabinet\CW1\GlobalPage" />
+    <Folder Include="Pages\Pupitors-Cabinet\CW2\GlobalPage" />
+    <Folder Include="Pages\Settings" />
+    <Folder Include="Pages\Pupitors-Cabinet" />
+    <Folder Include="Pages\Pupitors-Cabinet\CW2" />
+    <Folder Include="Pages\Pupitors-Cabinet\CW1" />
+    <Folder Include="Pages\Pupitors-Cabinet\Cabinet" />
+    <Folder Include="Pages\Settings\GlobalPage" />
+    <Folder Include="Pages\Verifications\Force" />
+    <Folder Include="Pages\Verifications\Torque" />
     <Folder Include="UserControls" />
     <Folder Include="Pages" />
     <Folder Include="Pages\DiscRoll" />
