@@ -728,4 +728,14 @@
 
 </div>
 
+<div id="TcHmiRectangle_21" data-tchmi-type="tchmi-rectangle" data-tchmi-height="40" data-tchmi-height-unit="px" data-tchmi-left="791" data-tchmi-left-unit="px" data-tchmi-top="1143" data-tchmi-top-unit="px" data-tchmi-width="40" data-tchmi-width-unit="px">
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(26, 255, 72, 1)"
+}
+</script>
+</div>
+
 </div>

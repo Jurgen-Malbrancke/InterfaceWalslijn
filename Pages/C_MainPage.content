@@ -130,7 +130,7 @@
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:framework#/definitions/ContentPath",
-          "value": "Pages/FDCTrial/GlobalPage/C_FDCTrial2.content"
+          "value": "Pages/FDCTrial/GlobalPage/C_FDCTrial.content"
         },
         "asyncWait": true
       }
